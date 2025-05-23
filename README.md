@@ -1,12 +1,12 @@
 
-# 🔬 Scientific Paper Summarization & Q&A Assistant
+# 🔬 Scientific Paper Summarization & Q&A
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
 [![Groq](https://img.shields.io/badge/Groq-API-green.svg)](https://groq.com)
 File Link-https://colab.research.google.com/drive/1C1uQyGKedQGrBBXeIxJhColFsWLovWu9#scrollTo=eCCgZfddxjFp
 
-> 🚀 **AI-powered research assistant that lets scientists ask questions about a corpus of journal articles using RAG (Retrieval-Augmented Generation) with few-shot prompting.**
+> 🚀 **It lets scientists ask questions about a corpus of journal articles using RAG (Retrieval-Augmented Generation) with few-shot prompting.**
 
 ## 📋 Table of Contents
 
@@ -16,6 +16,7 @@ File Link-https://colab.research.google.com/drive/1C1uQyGKedQGrBBXeIxJhColFsWLov
 - [🚀 Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
 - [⚙️ Configuration](#️-configuration)
+- Deployment(Soon using Streamlit!)
 
 ## 🎯 Overview
 
