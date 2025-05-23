@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
 [![Groq](https://img.shields.io/badge/Groq-API-green.svg)](https://groq.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+File Link-https://colab.research.google.com/drive/1C1uQyGKedQGrBBXeIxJhColFsWLovWu9#scrollTo=eCCgZfddxjFp
 
 > 🚀 **AI-powered research assistant that lets scientists ask questions about a corpus of journal articles using RAG (Retrieval-Augmented Generation) with few-shot prompting.**
 
@@ -16,12 +16,6 @@
 - [🚀 Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
 - [⚙️ Configuration](#️-configuration)
-- [💻 Usage](#-usage)
-- [🧪 Evaluation](#-evaluation)
-- [📊 Performance Metrics](#-performance-metrics)
-- [🛠️ API Reference](#️-api-reference)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ## 🎯 Overview
 
@@ -81,17 +75,6 @@ text
 2. **Query Phase**: Question → Similarity Search → Context Retrieval → Prompt Building
 3. **Generation Phase**: Few-Shot Prompt → Groq API → Llama Model → Answer + Sources
 
-## 🚀 Quick Start
-
-### 🎬 Demo (Coming Soon)
-Quick demo with sample data
-git clone https://github.com/yourusername/scientific-qa-assistant.git
-cd scientific-qa-assistant
-pip install -r requirements.txt
-streamlit run demo.py
-
-text
-
 ### ⚡ 5-Minute Setup
 
 1. **Clone the repository**
@@ -146,11 +129,24 @@ text
 
 </details>
 
-### 🔧 Installation Methods
+or 
+Install in Colab
+Ref: https://colab.research.google.com/drive/1C1uQyGKedQGrBBXeIxJhColFsWLovWu9#scrollTo=eCCgZfddxjFp
+!pip install streamlit sentence-transformers faiss-cpu PyMuPDF openai
 
-<details>
-<summary>📦 Method 1: pip install</summary>
+Set up tunnel for Streamlit
+!npm install -g localtunnel
 
-Create virtual environment
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
+text
+
+</details>
+
+## ⚙️ Configuration
+
+### 🔑 API Setup
+
+1. **Get Groq API Key**:
+   - Visit [Groq Console](https://console.groq.com/)
+   - Create account and generate API key
+   - Copy the key for configuration
+
