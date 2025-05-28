@@ -68,7 +68,7 @@ H --> I[Groq API + Llama]
 I --> J[Generated Answer]
 J --> K[Source Attribution]
 
-text
+
 
 ### 📊 Data Flow
 
@@ -82,32 +82,20 @@ text
 git clone https://github.com/yourusername/scientific-qa-assistant.git
 cd scientific-qa-assistant
 
-text
 
 2. **Install dependencies**
 pip install -r requirements.txt
 
-text
 
 3. **Set up API key**
 Add to .env file
 echo "GROQ_API_KEY=your_groq_api_key_here" > .env
-
-text
-
-4. **Run the application**
-streamlit run app.py
-
-text
-
-5. **Open browser**: Navigate to `http://localhost:8501`
 
 ## 📦 Installation
 
 ### 🐍 Prerequisites
 - Python 3.8+
 - 4GB+ RAM (for embeddings)
-- Internet connection (for Groq API)
 
 ### 📋 Dependencies
 
@@ -135,10 +123,7 @@ Install in Colab
 Ref: https://colab.research.google.com/drive/1C1uQyGKedQGrBBXeIxJhColFsWLovWu9#scrollTo=eCCgZfddxjFp
 !pip install streamlit sentence-transformers faiss-cpu PyMuPDF openai
 
-Set up tunnel for Streamlit
-!npm install -g localtunnel
 
-text
 
 </details>
 
